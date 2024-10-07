@@ -1,0 +1,135 @@
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url('src/images/w-blur.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-width: 350px;
+}
+
+.cartao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 600px;
+    width: 400px;
+    min-width: 350px;
+    border-radius: 25px;
+    border: solid 4px #F6ABCC;
+
+}
+
+.div-decorativo {
+    position: relative;
+    display: flex;
+    height: 110px;
+    width: 100%;
+    top: 0;
+}
+
+.cartao-decorativo {
+    background-image: url('src/images/skyblue.jpg');
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+    height: 250px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+}
+
+header img {
+    border: solid 4px #F6ABCC;
+    border-radius: 150px;
+    margin: 0px 75px 15px 75px;
+    position: relative; 
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nicksteam {
+    background-image: url('src/images/nick.png');
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.title h1 {
+    font-family: Kumbh Sans;
+    color: #A4DEF9;
+    margin: 0;
+}
+
+.desc h2 {
+    font-family: Kumbh Sans;
+    color: #686868;
+    font-size: 28px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.linha-decorativa {
+    border: solid 2px #F6ABCC;
+    width: 100%;
+    margin-top: 25px;
+}
+
+footer {
+    display: flex;
+    font-family: Kumbh Sans;
+    width: 100%;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 25px;
+}
+
+footer h2,
+h3 {
+    margin: 0;
+}
+
+footer h2 {
+    color: #A4DEF9;
+}
+
+footer h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #686868;
+}
+
+footer h3:hover {
+    color: #F6ABCC;
+}
+
+footer h2:hover {
+    color: #000000;
+}
+
+.title h1:hover {
+    color: #F6ABCC;
+}
+
+.nicksteam:hover {
+    background-image: url('src/images/steam-hover.png');
+}
